@@ -1,0 +1,18 @@
+H1{
+    COLOR:BLUE;
+    FONT: SIZE 32px;
+}
+H2{
+    color: teal;
+}
+P{
+    color: chocolate;
+    font-style: oblique;
+    font-size: small;
+}
+H3{
+    font-display: auto;  
+
+}
+/*THIS  IS USED FOR COMMENTS IN CSS */
+/*  IF WE WRITE 3 PARGRAPHS IN DIFFERENT ELEMENT SELECTORS BUT WE CAN WRITE ONLY 1 P FOR EVERY PARAGRAPH */
