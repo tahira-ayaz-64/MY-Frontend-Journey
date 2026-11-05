@@ -1,0 +1,23 @@
+body{
+    background-color: #6d4343;
+}
+H1{
+    color: red;
+    font-size: 25PX;
+}
+.NAME{
+    color: green;
+    font-size: 30px;
+}
+.HEX{
+    color: #00f;
+    font-size: 30px;
+}
+.RGB{
+    color:rgb(255,0,9); 
+    font-size: 30px;
+}
+.HSL{
+    color: hsl(120,100%,25); 
+    font-size: 30px;
+}
