@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+.BOX{
+    width: 300PX;
+    height: 150PX;
+    padding: 20PX;
+    border: 3PX solid black;
+    margin: 30PX;
+    background-color: lightseagreen;
+}
+.INFO1{
+    width: 250PX;
+    height: 150PX;
+    padding: 20PX;
+    border: 3PX solid black;
+    margin: 20px;
+    background-color: lightblue;
+    
+}
+.INFO02{
+    width: 250PX;
+    height: 150PX;
+    padding: 20PX;
+    border: 3PX soliD black;
+    margin: 20px;
+    background-color: lighTpink;
+    
+}
+.INFO03{
+    width: 250PX;
+    height: 150PX;
+    padding: 20PX;
+    border: 3PX solid black;
+    margin: 20px;
+    background-color: seagreen;
+    
+}
