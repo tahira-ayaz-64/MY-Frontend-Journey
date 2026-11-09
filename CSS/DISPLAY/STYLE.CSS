@@ -1,0 +1,33 @@
+.BLOCK{
+    display: block;
+    background-color: lightblue;
+    width: 150PX;
+    height: 50PX;
+    margin: 10PX;
+}
+.INLINE{
+    display: inline;
+    background-color: lightgreen;
+    width: 150PX;
+    height: 50PX;
+
+}
+.INLINE BLOCK{
+    display: inline-block;
+    background-color: lightpink;
+    width: 150PX;
+    height: 50PX;
+    margin: 10PX;
+}
+.HIDE{
+    display: none;
+}
+.PRODUCT{
+    width: 200PX;
+    height: 180PX;
+    padding: 20PX;
+    border: solid black;
+    background-color: lime;
+    display: inline-block;
+    margin: 20px;
+}
