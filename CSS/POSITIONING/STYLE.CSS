@@ -1,0 +1,84 @@
+.BOX1{
+    width: 150PX;
+    height: 80PX;
+    margin: 10PX;
+    position: static;
+    background-color: yellow;
+}
+.BOX2{
+    width: 150PX;
+    height: 80PX;
+    margin: 40PX;
+    position: relative;
+    top: 20PX;
+    left: 30PX;
+    background-color: brown;
+
+}
+.BOX3{
+    width: 150PX;
+    height: 80PX;
+    margin: 30PX;
+    position: static;
+    background-color: tomato;
+}
+.PROFILE{
+    width: 400PX;
+    padding: 20PX;
+    border: 2PX solid black;
+    border-radius: 15PX;
+    background-color: lightblue;
+    position: relative;
+    margin: 50PX auto;
+   
+
+
+}
+.PROFILE H1{
+    font-size: 24PX;
+    margin-bottom: 10PX;
+}
+.PROFILE P{
+    margin-top: 0;
+    color: #333;
+}
+.PICTURE {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+.BADGE{
+    position: absolute;
+    background-color: green;
+    top: 10PX;
+    right: 10PX;
+    color: white;
+    padding: 10PX 20PX;
+    border-radius: 20PX;
+
+
+
+}
+.button{
+    position: static;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    padding: 10PX 20px;
+    bottom: 20PX;
+    right: 20px;
+}
+.S1{
+    position: sticky;
+    background-color: yellow;
+    top: 0;
+}

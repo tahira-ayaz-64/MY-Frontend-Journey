@@ -1,0 +1,15 @@
+.PROFILE{
+    width: 350PX;
+    height: auto;
+    border: 3PX solid black;
+    border-radius: 15px;
+    box-shadow:5PX 5PX 10PX lightcoral;
+    outline: 2PX solid lightpink;
+    padding: 20PX;
+    margin: 30PX auto;
+    background-color: aliceblue;
+    text-align: justify;
+    text-decoration: none;
+    font-size: medium;
+    font-style: normal;
+}

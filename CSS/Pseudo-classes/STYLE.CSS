@@ -1,0 +1,26 @@
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 12PX 25PX;
+    border: NONE;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: plum;
+    cursor: pointer;
+}
+input{
+    border: 2PX solid black;
+    padding: 10PX;
+    outline: none;
+}
+input:focus{
+    border: 2PX solid blue;
+    background-color: lightcoral;
+}
+.SKILLS p:nth-child(2) {
+    color: purple;
+}
+p:nth-child(1) { color: red; }
+p:nth-child(2) { color: blue; }
+p:nth-child(4) { color: green; }

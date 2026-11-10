@@ -1,0 +1,12 @@
+P::first-letter{
+    color: red;
+    font-size: 35PX;
+    font-weight: bold;
+}
+P::before{
+    content:"⭐";
+}
+P::after{
+  content: " ❤️";  
+  font-size: 35px;
+}
