@@ -1,2 +1,3 @@
 # MY-Frontend-Journey
-My Frontend journey starts here .
+
+My Frontend journey starts here.
