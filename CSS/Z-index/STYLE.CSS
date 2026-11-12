@@ -1,0 +1,17 @@
+.BOX1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+}
+
+.BOX2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    z-index: 2;
+    margin-top: -80px;
+    margin-left: 50px;
+}
