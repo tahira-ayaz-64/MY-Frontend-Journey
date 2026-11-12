@@ -1,0 +1,77 @@
+
+/* FIRST CONTAINER — HORIZONTAL */
+
+.CONTAINER {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 500px;
+    height: 400px;
+    row-gap: 10px;
+    color: violet;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+/* FIRST CONTAINER BOXES */
+
+.BOX {
+    width: 100px;
+    height: 50px;
+    padding: 50px;
+    background-color: violet;
+    color: black;
+    border: 2px solid tomato;
+    border-radius: 15px;
+}
+
+/* BOX CLICK EFFECT */
+
+.BOX:active {
+    border-color: red;
+}
+
+
+/* SECOND CONTAINER — VERTICAL */
+
+.CONTAINER.ROW {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    height: 200px;
+    gap: 20px;
+    color: black;
+}
+
+/* SECOND CONTAINER BOXES */
+
+.BOX1 {
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    background-color: aqua;
+    border: 2px solid black;
+     flex-shrink: 1;
+}
+
+.BOX2 {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: red;
+    border: 2px solid black;
+   flex-basis: auto;
+
+}
+
+.BOX3 {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: thistle;
+    border: 2px solid black;
+     flex-grow:1 ;
+}
