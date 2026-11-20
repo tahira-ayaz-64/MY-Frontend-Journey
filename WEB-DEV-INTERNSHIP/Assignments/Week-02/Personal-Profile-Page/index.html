@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Personal Profile</h1>
+        <p>Welcome to my personal webpage!</p>
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+            <a href="#about">About Me</a> |
+            <a href="#goals">My Goals</a> |
+            <a href="#interests">Interests</a> |
+            <a href="#timetable">Timetable</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Me -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! My name is Tahira Ayaz.
+                I am a Software Engineering student.
+                I enjoy learning programming and web development.
+                I want to improve my technical skills and become
+                a successful software developer.
+            </p>
+
+            <!-- Profile Photo -->
+            <h3>My Photo</h3>
+
+            <img src="profile.jpg"
+                 alt="My personal profile photo"
+                 width="200">
+        </section>
+
+        <hr>
+
+        <!-- Goals -->
+        <section id="goals">
+            <h2>My Goals</h2>
+
+            <ul>
+                <li>Become a skilled software developer.</li>
+                <li>Learn HTML, CSS and JavaScript deeply.</li>
+                <li>Improve my programming and problem-solving skills.</li>
+                <li>Build real-world software projects.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Interests -->
+        <section id="interests">
+            <h2>My Interests</h2>
+
+            <ol>
+                <li>Web Development</li>
+                <li>Programming</li>
+                <li>Learning New Technologies</li>
+                <li>Reading</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- Timetable -->
+        <section id="timetable">
+            <h2>My Weekly Timetable</h2>
+
+            <table border="1">
+
+                <caption>My Learning Schedule</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Activity</th>
+                        <th scope="col">Time</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML Practice</td>
+                        <td>10:00 AM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>CSS Practice</td>
+                        <td>11:00 AM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>JavaScript Learning</td>
+                        <td>10:00 AM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Python Practice</td>
+                        <td>12:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>Project Practice</td>
+                        <td>11:00 AM</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="get">
+
+                <label for="name">Full Name:</label>
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Enter your name"
+                       required>
+
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email"
+                       required>
+
+                <br><br>
+
+                <label for="subject">Subject:</label>
+                <input type="text"
+                       id="subject"
+                       name="subject"
+                       placeholder="Enter subject">
+
+                <br><br>
+
+                <label for="message">Your Message:</label>
+                <br>
+
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          cols="30"
+                          placeholder="Write your message"
+                          required></textarea>
+
+                <br><br>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by Tahira Ayaz</p>
+        <p>&copy; 2026 My Personal Profile Page</p>
+    </footer>
+
+</body>
+</html>
