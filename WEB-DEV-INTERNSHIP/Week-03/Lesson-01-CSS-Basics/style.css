@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+}
+p {
+    color: green;
+}
+.intro {
+    color: purple;
+    font-size: 20px;
+}
+#heading{
+    color: red;
+}
+body{
+    background-color: lightgrey;
+}
+h3{
+    color: #ff0000;  
+} 
+
+.box1 {
+    background-color: lightblue;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 30px;
+}
